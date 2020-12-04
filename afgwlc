@@ -209,5 +209,5 @@ else:
 addotoall=input('Add random letters, numbers and symbols? [Y/N]: ')
 if addotoall=='Y':
     wlc = open("wlc.txt", "x")
-    wlc.write(nameinput+'1'\tnameinput+'2')
+    wlc.write(nameinput,nameinput+'1','1'+nameinput,nameinput+'2','2'+nameinput,nameinput+'3','3'+nameinput)
     wlc.close()
