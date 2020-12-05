@@ -212,5 +212,5 @@ if addotoall=='Y':
     wlc = open("wlc.txt", "x")
     wlc.write(nameinput)
     wlc.write(' ')
-    wlc.write(\nnameinput+'1')
+    wlc.write('\n'nameinput+'1')
     wlc.close()
